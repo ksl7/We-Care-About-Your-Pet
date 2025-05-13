@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    margin: 2rem  0 0 2rem;
+    width: 100%;
+}
+
+a {
+    color: rgb(152, 157, 156);
+    display: inline-block;
+    font-size: 24px;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 75%;
+}
+
+button.b-header {
+    background-color: rgb(102, 90, 225);
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 20.5px;
+    font-size: 24px;
+    height: 41px;
+    width: 130px;
+}
+
+button.b-header:hover {
+    opacity: 85%;
+}
+
+div.d-img {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 95%;
+    width: 50%;
+}
+
+img {
+    margin-top: 15%;
+    width: 70%;
+}
+
+div.d-main {
+    display: inline-block;
+    position: absolute;
+    height: 95%;
+    width: 50%;
+}
+
+main {
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    width: 513px;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+}
+
+p {
+    margin: 32px 0 65px;
+    width: 515px;
+}
+
+button.b-main {
+    background-color: rgb(173, 255, 0);
+    border: none;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 28px;
+    font-weight: 700;
+    height: 64px;
+    width: 239px;
+}
+
+button.b-main:hover {
+    opacity: 80%;
+}
+
+@media screen and (max-width: 655px){
+    header {
+        display: none;
+    }
+
+    div.d-img {
+        display: block;
+        position: static;
+        height: 50%;
+        width: 100%;
+    }
+
+    img {
+        margin-top: 25%;
+        width: 50%;
+    }
+
+    div.d-main {
+        display: block;
+        position: absolute;
+        height: 50%;
+        width: 100%;
+    }
+
+    main {
+        margin: 25% 0 0 25%;
+    }
+
+    h1 {
+        font-size: 50px;
+        width: 263px;
+    }
+
+    h2 {
+        font-size: 30px;
+        width: 232px;
+    }
+
+    p {
+        display: none;
+    }
+}
