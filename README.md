@@ -1,1 +1,1 @@
-Este é um Desaafio proposto no DevClub que eu consegui concluir no entanto um tanto diferente afinal fiz a minha maneira e também adicionei "RESPONSIVIDADE" ao projeto afinal responsividade também é algo que aprendi na formação DevClub.
+Este é um Desafio proposto na formação DevClub onde eu consegui concluir no entanto está um tanto diferente do que foi feito em aulas de correção afinal fiz a minha maneira e também adicionei "RESPONSIVIDADE" ao projeto afinal responsividade também é algo que aprendi na formação DevClub.
